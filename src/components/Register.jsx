@@ -24,7 +24,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://jenishabackend.onrender.com/register', {
+      const response = await fetch('https://project-attendance-backend-topv.onrender.com/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
