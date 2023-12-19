@@ -67,7 +67,7 @@ const Report = () => {
 
 
   useEffect(() => {
-    fetch('https://jenishabackend.onrender.com/allattendance')
+    fetch('https://project-attendance-backend-topv.onrender.com/allattendance')
       .then((response) => response.json())
       .then((data) => {
         const dataArray = Array.isArray(data) ? data : [data];
@@ -81,7 +81,7 @@ const Report = () => {
       })
       .catch((error) => console.error('Error fetching attendance data:', error));
 
-    fetch('https://jenishabackend.onrender.com/staffs')
+    fetch('https://project-attendance-backend-topv.onrender.com/staffs')
       .then((response) => response.json())
       .then((data) => {
         const dataArray = Array.isArray(data) ? data : [data];
