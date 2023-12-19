@@ -11,7 +11,7 @@ const Employees = () => {
 
   useEffect(() => {
     // Fetch data from the server when the component mounts
-    fetch('https://jenishabackend.onrender.com/staffs') // Replace with your server endpoint
+    fetch('https://project-attendance-backend-topv.onrender.com//staffs') // Replace with your server endpoint
       .then((response) => response.json())
       .then((data) => setEmployees(data))
       .catch((error) => console.error('Error fetching data:', error));
