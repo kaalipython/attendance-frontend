@@ -10,7 +10,7 @@ const Home = () => {
 
     // Make API request to verify user
     try {
-      const response = await fetch('https://jenishabackend.onrender.com/login', {
+      const response = await fetch('https://project-attendance-backend-topv.onrender.com//login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
