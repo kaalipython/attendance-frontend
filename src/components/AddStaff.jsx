@@ -16,7 +16,7 @@ const AddStaff = () => {
 
     try {
       // Send a POST request to the server endpoint
-      const response = await fetch('https://jenishabackend.onrender.com/addStaff', {
+      const response = await fetch('https://project-attendance-backend-topv.onrender.com//addStaff', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
